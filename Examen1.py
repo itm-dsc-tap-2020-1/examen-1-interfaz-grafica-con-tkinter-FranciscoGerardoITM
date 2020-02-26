@@ -15,7 +15,7 @@ def fboton1():
         res+=20
     if respuesta5_1.get()==1 and respuesta5_5.get()==1:
         res+=20
-    mBox.showinfo('Resultado',res)
+    mBox.showinfo('Resultado',str(res))
 
 def radio1():
     ttk.Label(ventana, text=respuesta2.get()).grid(column=0, row=20)
